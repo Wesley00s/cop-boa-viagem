@@ -1,0 +1,123 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	background-image: url(../img);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: auto;
+}
+.sobreContent{
+	background-image: url(../img/bgHeaderSobre.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: 30vw;
+
+}
+.sobreContent h1{
+	width: fit-content;
+	margin: auto;
+	color: #fff;
+	padding-top: 10%;
+	font-family: 'League Spartan' sans-serif;
+	font-size: max(20px, 5vw);
+	font-weight: 700;
+}
+
+.cardTexto{
+	margin: auto;
+	width: 50%;
+	position: absolute;
+	right: 25vw;
+	margin-top: 5vw;
+	border: none;
+	border-radius: 1vw;
+	background: #D3EFFF;
+	box-shadow: 2px 2px 8px;
+}
+
+.tituloCard{
+	font-size: max(14px, 2.2vw);
+	font-weight: 800;
+	padding: 1vw;
+	background: #06bd8f59;
+	border-radius: 1vw;
+	color: rgb(38, 63, 73);
+}
+
+.textoCard{
+	font-size: max(10px, 1.2vw);
+	font-weight: 500;
+	padding: 1vw;
+	color: rgb(38, 63, 73);
+}
+.hrSobre{
+	margin-top: 12%;
+}
+
+.contentEquipe{
+	width: 100%;
+	height: 21vw;
+	background: #187F8D;
+}
+
+.tituloEquipe h3{
+	text-align: center;
+	margin: auto;
+	padding: 1vw;
+	margin-bottom: 9%;
+	font-size: max(15px, 2vw);
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+}
+
+.imgEquipe img{
+	position: absolute;
+	width: 20vw;
+	left: 15%;
+	margin-top: 9%;
+	border-radius: 2vw;
+	box-shadow: 2px 2px 8px;
+}
+
+.textEquipe p{
+	font-size: max(10px, 1.4vw);
+	margin-top: 3%;
+	color: #fff;
+	width: 40%;
+	position: absolute;
+	left: 40%;
+}
+
+.geral{
+	margin-top: 5%;
+}
+
+.geral img{
+	width: 50%;
+	border-radius: 2vw;
+	box-shadow: #72979c 2px 2px 4px;
+}
+
+.geral h4{
+	margin-top: 4%;
+	font-size: max(10px, 1.3vw);
+	font-weight: 700;
+	color: #000;
+}
+
+.geral h6{
+	font-size: max(12px, 1.3vw);
+	color: #4a6669;
+}
