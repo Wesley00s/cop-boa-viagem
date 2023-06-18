@@ -139,6 +139,6 @@ header{
 .BemVindo{
 	text-align: center;
 	font-size: max(10px, 1.5vw);
-	padding: 5%;
+	padding-bottom: 5%;
 	font-weight: 600;
 }
