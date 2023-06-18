@@ -94,7 +94,7 @@ header{
 .bgMsgServicos {
 	border-radius: 9vw;
 	margin: auto;
-	width: 80%;
+	width: 60%;
 	background: #289292;
 	background: rgb(27, 133, 133);
 	background: -moz-linear-gradient(90deg, rgba(27, 133, 133, 1) 0%, rgba(233, 240, 241, 1) 100%, rgba(214, 226, 226, 1) 100%);
@@ -104,10 +104,11 @@ header{
 	
 }
 .msgServicos {
-	padding: 2vw;
+	padding: 1vw;
 	margin: auto;
+	margin-bottom: 3%;
 	width: fit-content;
-	font-size: max(12px, 1.8vw);
+	font-size: max(12px, 1.3vw);
 	font-weight: 600;
 	color: #fff;
 	text-shadow: #4a6b9c 2px 2px 5px;
@@ -133,4 +134,11 @@ header{
 	background: #55a7c7;
 	color: #fff;
 	border-radius: 1vw;
+}
+
+.BemVindo{
+	text-align: center;
+	font-size: max(10px, 1.5vw);
+	padding: 5%;
+	font-weight: 600;
 }

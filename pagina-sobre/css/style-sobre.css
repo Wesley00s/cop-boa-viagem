@@ -8,14 +8,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-header{
-	background-image: url(../img);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 0;
-	width: 100%;
-	height: auto;
-}
 .sobreContent{
 	background-image: url(../img/bgHeaderSobre.png);
 	background-repeat: no-repeat;
@@ -120,4 +112,50 @@ header{
 .geral h6{
 	font-size: max(12px, 1.3vw);
 	color: #4a6669;
+}
+
+.contentAcreditamos{
+	width: 100%;
+	height: 20vw;
+	background: #187F8D;
+}
+
+.contentAcreditamos p{
+	font-size: max(12px, 1.5vw);
+	width: 60%;
+	height: fit-content;
+	text-align: center;
+	position: absolute;
+	right: 20%;
+	margin-top: 9vw;
+	color: #fff;
+}
+
+.acreditamos h3{
+	text-align: center;
+	margin: auto;
+	padding: 1vw;
+	margin-bottom: 13%;
+	font-size: max(15px, 2vw);
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+
+}
+.equipeMaos{
+	background-image: url(../img/bg3.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 28vw;
+	box-shadow: inset #414e50 0px -3px 8px;
+}
+
+.imgAcreditar{
+	position: absolute;
+	margin-top: -6%;
+	left: 30%;
+	width: 40%;
+}
+
+.ultimoHr{
+	margin-bottom: -35vw;
 }

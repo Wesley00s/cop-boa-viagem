@@ -241,6 +241,7 @@ a{
 	height: 100%;
 }
 .tituloCarrossel{
+	margin-bottom: 5%;
 	width: 100%;
 	text-align: center;
 	font-size: max(10px, 3vw);
@@ -270,7 +271,7 @@ a{
 
 @media only screen and (max-width: 999px) and (min-width: 100px) {
 	#imagem_whats {
-		display: none
+		display: none;
 	}
 
 	#imagem_whats2 {
@@ -415,4 +416,46 @@ a{
 .hrInicio{
 	margin-top: 25vw;
 	margin-bottom: -30vw;
+}
+
+.imgAntesDepois{
+	width: 65%;
+	border-top-right-radius: 20vw;
+	border-bottom-right-radius: 20vw;
+	box-shadow: #187abb73 15px -20px;
+	border-radius: 20vw;
+}
+
+.textAntesDepois{
+	width: 20%;
+	font-weight: 400;
+	font-size: max(14px, 1.5vw);
+	position: absolute;
+	left: 35%;
+	margin-top: -18vw;
+}
+
+.carrosselAD{
+	width: 80%;
+	margin-left: 5vw;
+}
+
+.bordaCarrossel{
+	border-radius: 3vw;
+	box-shadow: #1fc9c0a8 1.5vw -1.5vw;
+}
+.tituloAeD{
+	width: fit-content;
+	margin: auto;
+	padding-bottom: 10%;
+}
+
+.tituloAeD h3{
+	font-size: max(14px, 2.5vw);
+	font-weight: 500;
+
+}
+
+.sombra{
+	box-shadow: 4px 4px;
 }
