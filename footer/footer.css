@@ -73,6 +73,12 @@ footer h6 {
     font-size: max(10px, 1vw);
 }
 
+footer h6:hover{
+    color: #133f58;
+    background: #07cc80;
+    transition: 0.3s;
+}
+
 .copy {
     background-color: #00203D;
     color: #fff;
