@@ -38,7 +38,7 @@
 }
 
 .novo-wdt {
-    width: 85%;
+    width: 70%;
 }
 .socialIcons img {
     position: relative;
@@ -48,11 +48,6 @@
     min-width: 25px;
     margin-left: 1vw;
     opacity: 0.6;
-}
-
-.socialIcons .zapTam {
-    max-width: 2.1vw;
-    min-width: 25px;
 }
 
 .medias {
