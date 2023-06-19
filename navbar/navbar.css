@@ -9,18 +9,14 @@
     display: flex;
     padding-bottom: ;
     position: absolute;
-    bottom: -9px;
+    bottom: -0.7rem;
     height: 2px;
     width: 0;
     background-color: rgba(21, 130, 225, 0.8);
 }
 
-.nav-link:hover::before {
-    width: 100%;
-}
-
 .nav-link:hover:before {
-    height: 2px;
+    height: 3px;
     width: 100%;
 }
 

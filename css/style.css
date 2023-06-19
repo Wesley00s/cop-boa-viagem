@@ -95,6 +95,12 @@ hr{
 	min-height: 5.7rem;
 	box-shadow: #ccc 3px 2px 6px;
 }
+
+.card:hover{
+	border: solid #f1eeee 4px;
+	transition: 0.4s;
+	background: #fdfdfd;
+}
 .col-espaco{
 	margin: 1vw 0vw;
 

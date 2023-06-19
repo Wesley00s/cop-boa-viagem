@@ -154,6 +154,14 @@ header{
 	height: 24%;
 
 }
+
+.meuBotao:hover{
+	background: #4ceee6;
+	color: #061e27;
+	border: solid #15d1c1 1px;
+	transition: 0.3s;
+}
+
 .ultimo{
 	margin-top: 10vw;
 }
