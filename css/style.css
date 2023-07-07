@@ -21,7 +21,6 @@ body{
 
 .topo h1{
 	color: #fff;
-	padding-top: ;
 	width: 50%;
 	font-size: max(30px, 5vw);
 	display: inline-block;
@@ -59,9 +58,6 @@ body{
 }
 .content_principal{
 	padding-bottom: 9%;
-}
-.content-page{
-	
 }
 .servico{
 	margin: auto;
@@ -175,8 +171,6 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
-	padding-top: ;
-	padding-bottom: ;
 	width: 100%;
 	height: auto;
 	display: flex;
