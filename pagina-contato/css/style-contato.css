@@ -31,7 +31,7 @@ header {
 }
 .form{
 	margin: auto;
-	width: 40%;
+	width: 90%;
 }
 
 .espacoLinha{
@@ -39,25 +39,23 @@ header {
 }
 
 .estiloInput {
-	height: 3vw;
-	font-size: max(8px, 1vw);
-	border: dotted #77838f 0.09vw;
+	max-height: 3rem;
+	/* font-size: max(8px, 1vw); */
 }
 
 .estiloTextarea {
-	font-size: max(8px, 1vw);
-	border: dotted #77838f 0.09vw;
+	/* font-size: max(8px, 1vw); */
 }
 .estiloBotao {
 	opacity: 0.9;
 	width: 100%;
 	margin: auto;
-	font-size: max(10px, 1vw);
+	font-size: max(15px, 1vw);
 	min-width: 3rem;
-	background-color: #88c5e9;
+	/* background-color: #88c5e9; */
 	border: none;
-	border-radius: 2vw;
-	color: #2a445c;
+	border-radius: 10vw;
+	/* color: #2a445c; */
 	font-weight: 600;
 	box-shadow: #5e7a94 2px 2px 4px;
 	position: relative;
@@ -81,12 +79,6 @@ header {
 	font-size: max(12px, 1.3vw);
 	padding: 3vw;
 }
-.agradecimento img{
-	position: relative;
-	width: 250%;
-
-	margin-top: 1vw;
-}
 
 .agradecimento p{
 	color: #fff;
@@ -94,14 +86,13 @@ header {
 
 .pessoa{
 	position: absolute;
-	
 	border-radius: 2vw;
 }
 
 .imgPessoa{
 	width: 100%;
 	margin-left: -4vw;
-	margin-top: -6vw;
+	margin-top: -8vw;
 }
 
 legend {
@@ -112,4 +103,14 @@ legend {
 
 .hrContato{
 	margin-top: 20vw;
+}
+
+.ContenteContato{
+	max-width: 50rem;
+	min-width: 1rem;
+	background: #e6f1ef;
+	padding-bottom: 2vw;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
