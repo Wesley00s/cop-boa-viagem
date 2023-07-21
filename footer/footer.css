@@ -17,32 +17,48 @@ footer {
     background-size: cover;
     width: 100%;
     height: auto;
-    margin-top: -25vw;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    color: #fff;
+    flex-wrap: nowrap;
 }
 
-.imgFooter {
-    margin-top: 55%;
-    padding-top: 50%;
+.informations{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
 
 .contentFooter {
-    margin-top: 40%;
-    text-align: left;
-    margin-bottom: 25%;
-    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 3rem;
 }
 
-.enderecoFooter {
-    margin-top: 5%;
-    text-align: left;
+
+
+.btns{
+    width: 50%;
+    max-width: 20rem;
+    padding: 1rem;
+    margin: auto;
 }
 
-footer p {
-    font-size: max(9px, 0.8vw);
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 0;
-    width: 80%;
+.top{
+    margin: 1rem;
 }
 
 .tFooter {
@@ -51,26 +67,57 @@ footer p {
     width: fit-content;
     padding: 0.4vw 2.5vw;
     border-radius: 1vw;
-    font-size: max(12px, 1vw);
-    margin-top: -2vw;
+    font-size: max(17px, 1.8vw);
+    margin: auto;
+    margin-bottom: 3rem;
 }
+
+
+.enderecoFooter {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    width:80%;
+}
+
+.contatoFooter {
+    width: 80%;
+    margin: auto;
+}
+
+footer p {
+    font-size: max(15px, 1.5vw);
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+    width: 80%;
+}
+
 
 footer ul li {
     list-style: none;
 }
 
 .footer img {
-    margin-top: -2vw;
+    width: 20%;
+    min-width: 8rem;
+    margin-right: 2rem;
 }
 
 footer h6 {
     color: #fff;
     padding: 0.4vw 2vw;
-    width: fit-content;
-    margin-top: 1vw;
+    width: 100%;
     background: #0c704f;
     border-radius: 2vw;
-    font-size: max(10px, 1vw);
+    font-size: max(16px, 1.8vw);
+    padding: 0.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 footer h6:hover{
@@ -80,11 +127,13 @@ footer h6:hover{
 }
 
 .copy {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     background-color: #00203D;
     color: #fff;
     width: 100%;
     height: auto;
     opacity: 0.7;
-    margin-top: -25vw;
     padding: 2vw;
 }
