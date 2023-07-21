@@ -43,9 +43,6 @@ header {
 	/* font-size: max(8px, 1vw); */
 }
 
-.estiloTextarea {
-	/* font-size: max(8px, 1vw); */
-}
 .estiloBotao {
 	opacity: 0.9;
 	width: 100%;
@@ -70,7 +67,7 @@ header {
 .secao2{
 	width: 100%;
 	background: #187f8d;
-	box-shadouw: #121a22 3px 3px 6px;
+	box-shadow: #121a22 3px 3px 6px;
 }
 
 .agradecimento{
