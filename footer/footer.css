@@ -34,6 +34,7 @@ footer {
     width: 50%;
     flex-wrap: wrap;
     margin: 1rem;
+    transform: translateX(100px);
 }
 
 .contentFooter {
@@ -42,7 +43,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     flex-wrap: wrap;
     margin: auto;
     padding: 3rem;
@@ -51,8 +52,8 @@ footer {
 
 
 .btns{
-    width: 50%;
-    max-width: 20rem;
+    width: 45%;
+    max-width: 15rem;
     padding: 1rem;
     margin: auto;
 }
@@ -63,13 +64,14 @@ footer {
 
 .tFooter {
     color: #fff;
-    background: #0b306865;
+    background: #6d89b365;
     width: fit-content;
     padding: 0.4vw 2.5vw;
     border-radius: 1vw;
-    font-size: max(17px, 1.8vw);
+    font-size: max(15px, 1.5vw);
     margin: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    transform: translateX(-110%);
 }
 
 
@@ -78,16 +80,16 @@ footer {
     margin-bottom: 1rem;
     margin: auto;
     margin-bottom: 1rem;
-    width:80%;
+    width:100%;
 }
 
 .contatoFooter {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 footer p {
-    font-size: max(15px, 1.5vw);
+    font-size: max(15px, 1vw);
     font-weight: 500;
     text-align: left;
     margin-bottom: 0;
@@ -102,7 +104,9 @@ footer ul li {
 .footer img {
     width: 20%;
     min-width: 8rem;
-    margin-right: 2rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    transform: translateX(60px);
 }
 
 footer h6 {
@@ -111,7 +115,7 @@ footer h6 {
     width: 100%;
     background: #0c704f;
     border-radius: 2vw;
-    font-size: max(16px, 1.8vw);
+    font-size: max(12px, 1vw);
     padding: 0.8rem;
     display: flex;
     text-align: center;

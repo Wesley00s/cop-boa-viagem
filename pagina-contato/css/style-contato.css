@@ -14,67 +14,111 @@ header {
 	background-size: cover;
 	background-position: 0 0;
 	width: 100%;
-	height: 30vw;
+	height: 100%;
 }
 .contentHeader {
 	width: 100%;
 }
 .tituloHeader{
 	font-family: 'League Spartan', sans-serif;
-	position: absolute;
-	right: 23%;
 	color: #fff;
-	font-size: max(20px, 5vw);
+	font-size: max(70px, 6vw);
 	font-weight: 700;
 	text-align: center;
-	padding-top: 15vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20vw;
+	padding-bottom: 20vw;
 }
-.form{
+.ContenteContato{
+
 	margin: auto;
 	width: 90%;
+	border: solid 1px #65a89f;
+	border-radius: 2rem;
+	padding: 2rem;
 }
 
-.espacoLinha{
-	margin-bottom: 1vw;
-}
-
-.estiloInput {
-	max-height: 3rem;
-	/* font-size: max(8px, 1vw); */
-}
-
-.estiloBotao {
-	opacity: 0.9;
-	width: 100%;
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	margin: auto;
-	font-size: max(15px, 1vw);
-	min-width: 3rem;
-	/* background-color: #88c5e9; */
-	border: none;
-	border-radius: 10vw;
-	/* color: #2a445c; */
-	font-weight: 600;
-	box-shadow: #5e7a94 2px 2px 4px;
-	position: relative;
-	margin-top: 1vw;
 }
 
-.tamanhoCol {
-	width: 50%;
-	position: relative;
+input{
+	width: 40vw;
+	min-width: 20rem;
+	border: none;
+	border-bottom: 1px solid #7cbdc2;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+
 }
+
+#mensagem{
+	width: 40vw;
+	min-width: 20rem;	
+	border: none;
+	border: 1px solid #7cbdc2;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+	resize: none;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.bordaButton{
+	width: 40vw !important;
+	min-width: 20rem !important;
+	border-radius: 10rem;
+	width: 30rem;
+	border: none;
+	box-shadow: 2px 3px 4px rgba(0,0,0,0.4);
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+}
+
+.bordaButton:hover{
+    background-color: #3f6366;
+    color: #fff;
+}
+
+.contato{
+	text-align: center;
+	padding: 2rem;
+	margin-bottom: 7rem;
+	background: #a2d0db3d;
+	border-radius: 1rem;
+	color: #146d79b7;
+}
+
+
 
 .secao2{
 	width: 100%;
+	display: flex;
+	flex-direction: row;
 	background: #187f8d;
 	box-shadow: #121a22 3px 3px 6px;
 }
 
 .agradecimento{
-	width: 80%;
+	width: 70%;
 	padding: auto;
-	font-size: max(12px, 1.3vw);
+	font-size: max(18px, 1.8vw);
 	padding: 3vw;
+	margin: auto;
 }
 
 .agradecimento p{
@@ -84,30 +128,12 @@ header {
 .pessoa{
 	position: absolute;
 	border-radius: 2vw;
-}
-
-.imgPessoa{
-	width: 100%;
-	margin-left: -4vw;
-	margin-top: -8vw;
-}
-
-legend {
-	font-weight: 600;
-	text-align: center;
-	margin-bottom: 1vw;
+	width: 20vw;
+	min-width: 10rem;
+	transform: translateX(-450px) translateY(210px);
 }
 
 .hrContato{
-	margin-top: 20vw;
-}
-
-.ContenteContato{
-	max-width: 50rem;
-	min-width: 1rem;
-	background: #e6f1ef;
-	padding-bottom: 2vw;
-	margin: auto;
-	border-radius: 10px;
-	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	margin-top: 10vw;
+	margin-bottom: 10vw;
 }
