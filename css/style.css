@@ -378,7 +378,6 @@ a{
 }
 
 .secao-5{
-	background-image: url('../img/bgSite.png');
 	width: 100%;
 	height: auto;
 	background-repeat: no-repeat;
@@ -397,17 +396,17 @@ a{
 	flex-direction: row;
 	font-size: max(24px, 2.5vw);
 	text-align: center;
-	margin: auto;
+	margin: 2vw auto;
 	padding: 1rem;
 	font-weight: 700;
 }
 .textSecao5{
 	text-align: center;
-	font-size: max(18px, 1.9vw);
+	font-size: max(20px, 1.9vw);
 	padding: 1rem;
 	margin: auto;
-	margin-top: 6rem;
-	margin-bottom: 6rem;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
 	width: 50rem;
 }
 
@@ -415,14 +414,15 @@ a{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 40%;
-	min-width: 18rem;
-	margin: auto;
+	width: 90%;
+	max-width: 55rem;
+	min-width: 10rem;
+	margin: 1vw auto;
 }
 
 .btnAgendar{
 	font-size: max(16px, 1.9vw);
-	width: 40%;
+	width: 75%;
 	min-width: 17rem;
 	background-color: #ccaceb;
 	border: none;
@@ -432,7 +432,21 @@ a{
 	padding: 0.5rem 1rem;
 	box-shadow: #2a445c 2px 4px 6px;
 	margin: auto;
-	margin-top: 10rem;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+
+.contentDr{
+	background: #098383;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 150%;
+	max-width: 40rem;
+	min-width: 50%;
+	color: #fff;
+	border-radius: 1vw;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
 }
 
 .hrInicio{
