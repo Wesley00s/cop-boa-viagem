@@ -131,8 +131,8 @@ body {
 }
 
 .geral img{
-	width: 20rem;
-	height: 28rem;
+	width: 15rem;
+	height: 22rem;
 	border-radius: 1rem;
 	margin-top: 5vw;
 	box-shadow: #72979c 2px 2px 4px;
@@ -188,7 +188,7 @@ body {
 
 .imgAcreditar{
 	width: 40%;
-	min-width: 25rem;
+	min-width: 15rem;
 	transform: translateY(6vw);
 	margin: auto;
 	display: flex;
@@ -206,4 +206,37 @@ body {
 	margin: auto;
 	padding: 2vw;
 	font-size: max(30px, 2.4vw);
+}
+
+.consultory{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.imgConsultory img{
+	width: 100%;
+	min-height: 15rem;
+}
+
+.imgConsultory{
+	margin: auto;
+	width: 55vw;
+	min-width: 20rem;
+}
+
+.textConsultory{
+	margin: auto;
+	display: flex;
+	font-size: max(20px, 2vw);
+	width: 40%;
+		min-height: 15rem;
+	min-width: 18rem;
+	padding: 1rem;
+}
+
+.consultory h3{
+	font-size: max(25px, 3vw);
 }
