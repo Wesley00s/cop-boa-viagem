@@ -16,7 +16,7 @@ body{
 }
 .secao-topo{
 	width: 82%;
-	padding-top: 2%;
+	padding-top: 7%;
 }
 
 .topo h1{
@@ -419,9 +419,9 @@ a{
 }
 
 .btnAgendar{
-	font-size: max(16px, 1.9vw);
-	width: 75%;
-	min-width: 17rem;
+	font-size: max(15px, 1.8vw);
+	width: 70%;
+	min-width: 15rem;
 	background-color: #ccaceb;
 	border: none;
 	border-radius: 10vw;
